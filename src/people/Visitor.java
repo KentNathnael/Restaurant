@@ -25,7 +25,7 @@ public class Visitor {
     }
 
     public void showTotalPrice(){
-        System.out.println(name + " cook history:");
+        System.out.println(name + " order:");
         for(String string : history){
             System.out.printf(string + "\n");
         }
